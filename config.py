@@ -9,7 +9,7 @@ OPENROUTER_API_KEY=os.environ.get("OPENROUTER_API_KEY")
 EMBEDDING_MODEL = "text-embedding-3-small"
 
 # Replace this with the OpenAI model you have chosen for your project.
-LLM_MODEL = "openai/gpt-4o-mini"
+LLM_MODEL = "openrouter/free"
 
 CHROMA_PATH = "./chroma_db"
 
